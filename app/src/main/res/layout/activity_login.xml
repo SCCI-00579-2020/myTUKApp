@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tuktradecircle.activities.LoginActivity"
+    android:background="@color/cardview_dark_background">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_margin="15dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textview_login_head"
+            android:layout_marginTop="50dp"
+            android:text="Enter your details to login"
+            android:textColor="@color/navy_blue"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textview_login_email"
+            android:layout_marginTop="50dp"
+            android:padding="6dp"
+            android:layout_below="@+id/textview_login_head"
+            android:text="Email"
+            android:textColor="@color/navy_blue"
+            android:textSize="16sp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview_login_email"
+            android:id="@+id/editText_login_email"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/border"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textview_login_pwd"
+            android:layout_marginTop="30dp"
+            android:padding="6dp"
+            android:layout_below="@+id/editText_login_email"
+            android:text="Password"
+            android:textColor="@color/navy_blue"
+            android:textSize="16sp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview_login_pwd"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            android:id="@+id/editText_login_pwd"
+            android:textSize="16sp"
+            android:inputType="textPassword"
+            android:background="@drawable/border"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editText_login_pwd"
+            android:padding="16dp"
+            android:id="@+id/button_login"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="80dp"
+            android:text="LOGIN"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_login"
+            android:padding="16dp"
+            android:id="@+id/button_forgot_password"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="80dp"
+            android:text="forgot password?"/>
+
+
+
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:elevation="10dp"
+            android:id="@+id/progressBar"
+            android:visibility="gone"/>
+
+
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

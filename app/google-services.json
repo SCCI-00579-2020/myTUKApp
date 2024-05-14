@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "3015796096",
+    "firebase_url": "https://tuk-trade-circle-default-rtdb.firebaseio.com",
+    "project_id": "tuk-trade-circle",
+    "storage_bucket": "tuk-trade-circle.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3015796096:android:19d933b65f4b16d3bf8d65",
+        "android_client_info": {
+          "package_name": "com.example.tm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASjAjG5QDIh1z1mS30PlxnIGXQh8CJyZk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3015796096:android:0fff3d6652068480bf8d65",
+        "android_client_info": {
+          "package_name": "com.example.tuktradecircle"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASjAjG5QDIh1z1mS30PlxnIGXQh8CJyZk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

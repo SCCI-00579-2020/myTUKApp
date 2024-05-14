@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tuktradecircle.activities.RegisterActivity"
+    android:background="@color/black">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_margin="15dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_register_head"
+            android:textColor="@color/black"
+            android:layout_marginTop="30dp"
+            android:text=" Please enter your correct details to register as recorded by the school"
+            android:textAlignment="center"
+            android:padding="6dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_register_full_name"
+            android:layout_below="@+id/textView_register_head"
+            android:text="Full Name"
+            android:textColor="@color/navy_blue"
+            android:padding="6dp"
+            android:textSize="16sp"
+            android:layout_marginTop="50dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_register_full_name"
+            android:hint="Enter your full name"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:background="@drawable/border"
+            android:layout_below="@id/textView_register_full_name"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_register_email"
+            android:layout_below="@id/textView_register_full_name"
+            android:text="Email"
+            android:textColor="@color/navy_blue"
+            android:padding="6dp"
+            android:textSize="16sp"
+            android:layout_marginTop="30dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_register_email"
+            android:hint="Enter your Email"
+            android:inputType="textEmailAddress"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:background="@drawable/border"
+            android:layout_below="@id/textView_register_email"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_register_school"
+            android:layout_below="@id/textView_register_email"
+            android:text="School ID"
+            android:textColor="@color/navy_blue"
+            android:padding="6dp"
+            android:textSize="16sp"
+            android:layout_marginTop="30dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_register_school"
+            android:textColor="@color/black"
+            android:hint="Enter your School ID correctly"
+            android:inputType="text"
+            android:textSize="16sp"
+            android:background="@drawable/border"
+            android:layout_below="@id/textView_register_school"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_register_course"
+            android:layout_below="@id/textView_register_school"
+            android:text="Course"
+            android:textColor="@color/navy_blue"
+            android:padding="6dp"
+            android:textSize="16sp"
+            android:layout_marginTop="30dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_register_course"
+            android:hint="Enter your course of study"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:background="@drawable/border"
+            android:layout_below="@id/textView_register_course"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_register_year"
+            android:layout_below="@id/textView_register_course"
+            android:text="Year of Study"
+            android:textColor="@color/navy_blue"
+            android:padding="6dp"
+            android:textSize="16sp"
+            android:layout_marginTop="30dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_register_year"
+            android:hint="Enter your current year of study"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:background="@drawable/border"
+            android:layout_below="@id/textView_register_year"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_register_phone"
+            android:layout_below="@id/textView_register_year"
+            android:text="Phone Number"
+            android:textColor="@color/navy_blue"
+            android:padding="6dp"
+            android:textSize="16sp"
+            android:layout_marginTop="30dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_register_phone"
+            android:hint="Enter your active phone number"
+            android:inputType="phone|number"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:background="@drawable/border"
+            android:layout_below="@id/textView_register_phone"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_register_password"
+            android:layout_below="@id/textView_register_phone"
+            android:text="Password"
+            android:textColor="@color/navy_blue"
+            android:padding="6dp"
+            android:textSize="16sp"
+            android:layout_marginTop="30dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_register_password"
+            android:hint="Enter your password"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:background="@drawable/border"
+            android:layout_below="@id/textView_register_password"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_register_confirm"
+            android:layout_below="@id/textView_register_password"
+            android:text="Confirm Password"
+            android:textColor="@color/navy_blue"
+            android:padding="6dp"
+            android:textSize="16sp"
+            android:layout_marginTop="30dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_register_confirm"
+            android:hint="re-enter your password"
+            android:textColor="@color/black"
+            android:inputType="textPassword"
+            android:textSize="16sp"
+            android:background="@drawable/border"
+            android:layout_below="@id/textView_register_confirm"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editText_register_confirm"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="50dp"
+            android:id="@+id/button_register"
+            android:text="Register"/>
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:elevation="10dp"
+            android:visibility="gone"/>
+
+
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

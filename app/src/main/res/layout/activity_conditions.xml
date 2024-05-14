@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tuktradecircle.activities.ConditionsActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/homeback"
+        android:padding="6dp"
+        android:paddingLeft="6dp"
+        android:paddingStart="6dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONDITIONS AND RULES"
+            android:textColor="@color/navy_blue"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Welcome to TTC where we value the welfare of each person.
+Since this is a school system, all institution rules in Technical University of Kenya
+MUST be followed without compromise. Ensure you read all these conditions carefully.
+Failure to comply will lead to loss of TTC account PERMANENTLY and also repercussions from
+the administration"
+            android:textColor="@color/light_pink"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="180dp"
+            android:text="1. All trading should occur
+             \n2. "/>
+
+
+
+    </RelativeLayout>
+
+</ScrollView>
